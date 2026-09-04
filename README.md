@@ -1,6 +1,6 @@
 HTML + CSS + JS. Extensions manager. The project that I am by far the most proud of so far.
 My skills shown in this project:
-- JavaScript architecture (state &arrr; save &arrr; render, single source of truth)
+- JavaScript architecture (state -> save -> render, single source of truth)
 - Async/await data fetching with error handling
 - Event delegation
 - localStorage management
