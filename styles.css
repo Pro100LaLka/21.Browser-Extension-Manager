@@ -71,7 +71,7 @@ html {
   --color-hover: rgba(0, 0, 0, 0.08);
   --color-active: rgba(0, 0, 0, 0.15);
 
-  --gradient-bg: linear-gradient(180deg, #ebf2fc 0%, #eef8f9 100%);
+  --gradient-bg: linear-gradient(180deg, #e2ebf8 0%, #e3f4f5 100%);
 }
 
 [data-theme="dark"] .moon {
@@ -173,6 +173,10 @@ main {
   border: none;
   border-radius: 1rem;
   cursor: pointer;
+}
+
+.theme-toggle:hover .filter-btn {
+  transition: none;
 }
 
 /* ---------- LIST HEADER ---------- */
@@ -400,8 +404,8 @@ button:focus-visible,
   outline-offset: 1px;
 }
 
-button,
-.toggle-extension__track {
+button:hover,
+.toggle-extension__track:hover {
   transition:
     background-color 0.15s ease,
     box-shadow 0.15s ease,
